@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
+import "typeface-lato";
 import "./layout.css";
 
 const Layout = ({ children }) => (
