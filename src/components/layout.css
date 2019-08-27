@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777;
+  color: #444;
   font-weight: 300;
 }
 
@@ -37,5 +37,20 @@ h2 {
     padding: 0.4in;
     font-size: 12pt;
     color: #444;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #4a4a4a;
+    color: white;
+  }
+
+  h1 {
+    color: #ddd;
+  }
+
+  h2 {
+    color: #c6c6c6;
   }
 }
