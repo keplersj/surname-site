@@ -21,5 +21,10 @@
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "typeface-lato": "0.0.75"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-runner-prettier": "^0.3.1",
+    "prettier": "^1.18.2"
   }
 }
