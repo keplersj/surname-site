@@ -13,6 +13,12 @@ module.exports = {
     {
       preset: "jest-runner-remark",
       displayName: "lint:remark"
+    },
+    {
+      runner: "eslint",
+      displayName: "lint:eslint",
+      testMatch: ["<rootDir>/**/*.js", "<rootDir>/**/*.jsx"],
+      testPathIgnorePatterns: ["/node_modules/", "/public/", "/.cache/"]
     }
   ]
 };
