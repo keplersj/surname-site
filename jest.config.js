@@ -9,6 +9,10 @@ module.exports = {
       preset: "jest-runner-stylelint",
       displayName: "lint:stylelint",
       testPathIgnorePatterns: ["/node_modules/", "/public/", "/.cache/"]
+    },
+    {
+      preset: "jest-runner-remark",
+      displayName: "lint:remark"
     }
   ]
 };
