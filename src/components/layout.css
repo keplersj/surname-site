@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+small {
+  font-size: 11px;
+}
+
 a small {
   font-size: 11px;
   color: #777;
@@ -72,7 +76,7 @@ blockquote {
 
 code,
 pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, serif;
   color: #333;
   font-size: 12px;
 }
@@ -119,23 +123,20 @@ header {
 header ul {
   list-style: none;
   height: 40px;
-
   padding: 0;
-
   background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #ddd 100%);
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
     color-stop(0%, #f8f8f8),
-    color-stop(100%, #dddddd)
+    color-stop(100%, #ddd)
   );
-  background: -webkit-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, #ddd 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%, #ddd 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%, #ddd 100%);
+  background: linear-gradient(to top, #f8f8f8 0%, #ddd 100%);
   border-radius: 5px;
   border: 1px solid #d2d2d2;
   box-shadow: inset #fff 0 1px 0, inset rgba(0, 0, 0, 0.03) 0 -1px 0;
@@ -184,10 +185,6 @@ section {
   width: 500px;
   float: right;
   padding-bottom: 50px;
-}
-
-small {
-  font-size: 11px;
 }
 
 hr {
