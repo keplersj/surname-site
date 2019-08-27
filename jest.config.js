@@ -1,6 +1,11 @@
 module.exports = {
   projects: [
     {
+      preset: "jest-preset-gatsby",
+      displayName: "test",
+      snapshotSerializers: ["jest-serializer-react-helmet"]
+    },
+    {
       preset: "jest-runner-prettier",
       displayName: "lint:prettier",
       testPathIgnorePatterns: ["/node_modules/", "/public/", "/.cache/"]

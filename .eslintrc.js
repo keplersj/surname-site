@@ -5,7 +5,8 @@ module.exports = {
     "prettier",
     "prettier/@typescript-eslint",
     "plugin:react/recommended",
-    "prettier/react"
+    "prettier/react",
+    "plugin:jest/recommended"
   ],
   settings: {
     react: {
@@ -17,7 +18,7 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 9,
     sourceType: "module",
     ecmaFeatures: {
       jsx: true
