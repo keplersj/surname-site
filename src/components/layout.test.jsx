@@ -1,18 +1,16 @@
 import * as React from "react";
 import renderer from "react-test-renderer";
-import { StaticQuery } from "gatsby";
+import { useStaticQuery } from "gatsby";
 import Layout from "./layout";
 
 beforeEach(() => {
-  StaticQuery.mockImplementation(({ render }) =>
-    render({
-      site: {
-        siteMetadata: {
-          title: "Test Title"
-        }
+  useStaticQuery.mockImplementation(() => ({
+    site: {
+      siteMetadata: {
+        title: "Test Title"
       }
-    })
-  );
+    }
+  }));
 });
 
 describe("Default Layout", () => {
