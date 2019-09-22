@@ -6,16 +6,6 @@ module.exports = {
     siteUrl: "https://stickajones.org"
   },
   plugins: [
-    "gatsby-plugin-robots-txt",
-    "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        defaultLayouts: {
-          default: require.resolve("./src/components/layout.jsx")
-        }
-      }
-    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -24,18 +14,18 @@ module.exports = {
         respectDNT: true
       }
     },
-    "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: "gatsby-theme-sputnik",
       options: {
-        name: "Sticka-Jones Website",
-        short_name: "Sticka-Jones",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#000000",
-        display: "minimal-ui"
+        manifestOptions: {
+          name: "Sticka-Jones Website",
+          short_name: "Sticka-Jones",
+          start_url: "/",
+          background_color: "#ffffff",
+          theme_color: "#000000",
+          display: "minimal-ui"
+        }
       }
-    },
-    "gatsby-plugin-offline"
+    }
   ]
 };
