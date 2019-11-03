@@ -1,1 +1,1 @@
-module.exports = require("./gatsby.config.json");
+module.exports = require("./package.json")["gatsby"];
