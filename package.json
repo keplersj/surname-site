@@ -3,8 +3,10 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "build": "gatsby build",
-    "develop": "gatsby develop"
+    "build": "carraway build",
+    "develop": "carraway develop",
+    "clean": "carraway clean",
+    "serve": "carraway serve"
   },
   "gatsby": {
     "siteMetadata": {
@@ -60,6 +62,7 @@
     ]
   },
   "dependencies": {
+    "carraway": "^1.0.0",
     "gatsby": "^2.17.7",
     "gatsby-plugin-google-analytics": "^2.1.23",
     "gatsby-theme-sputnik": "^1.0.10",
