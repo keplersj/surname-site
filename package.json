@@ -74,7 +74,7 @@
     "jest": "^25.1.0",
     "jest-runner-prettier": "^0.3.6",
     "jest-runner-remark": "^1.0.5",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.0",
     "remark-preset-lint-starstuff": "^1.0.6"
   }
 }
