@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "carraway": "^1.0.15",
-    "gatsby": "^2.21.4",
+    "gatsby": "^2.21.5",
     "gatsby-plugin-google-analytics": "^2.3.0",
     "gatsby-theme-sputnik": "^1.0.12",
     "react": "^16.13.1",
