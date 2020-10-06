@@ -71,7 +71,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jest": "^26.4.2",
+    "jest": "^26.5.0",
     "jest-runner-prettier": "^0.3.6",
     "jest-runner-remark": "^1.0.13",
     "prettier": "^2.1.2",
