@@ -64,7 +64,7 @@
   "dependencies": {
     "carraway": "^1.0.28",
     "gatsby": "^2.24.67",
-    "gatsby-plugin-google-analytics": "^2.3.15",
+    "gatsby-plugin-google-analytics": "^2.3.17",
     "gatsby-theme-sputnik": "^1.0.14",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
