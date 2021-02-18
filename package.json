@@ -67,7 +67,7 @@
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-theme-sputnik": "^1.0.15",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
