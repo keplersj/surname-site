@@ -62,7 +62,7 @@
     ]
   },
   "dependencies": {
-    "carraway": "^1.0.48",
+    "carraway": "^1.0.49",
     "gatsby": "^3.6.2",
     "gatsby-plugin-google-analytics": "^3.6.0",
     "gatsby-theme-sputnik": "^1.0.15",
