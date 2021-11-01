@@ -1,5 +1,6 @@
 import { VitePWA } from "vite-plugin-pwa";
 import compress from "vite-plugin-compress";
+import { minifyHtml } from "vite-plugin-html";
 
 export default {
   plugins: [
@@ -33,6 +34,7 @@ export default {
         ],
       },
     }),
+    minifyHtml(),
     compress(),
   ],
 };
