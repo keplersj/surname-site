@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticka-Jones Website</title>
+    <meta name="description" content="Sticka-Jones Landing Page" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link
+      rel="alternate icon"
+      href="/favicon.ico"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="mask-icon" href="/icon.svg" color="#5bbad5" />
+    <meta name="theme-color" content="#000000" />
+
+    <script type="module">
+      import "./index.css";
+      import { registerSW } from "virtual:pwa-register";
+
+      const updateSW = registerSW({
+        onNeedRefresh() {},
+        onOfflineReady() {},
+      });
+    </script>
+    <link href="./index.md" rel="preload" as="fetch" crossorigin="anonymous" />
+    <script
+      type="module"
+      src="/node_modules/webcomponent-markdown/dist/index.js"
+    ></script>
+  </head>
+  <body>
+    <remark-markdown as="main" src="./index.md"></remark-markdown>
+  </body>
+</html>
