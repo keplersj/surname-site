@@ -35,6 +35,6 @@ export default {
       },
     }),
     minifyHtml(),
-    compress(),
+    // compress(),
   ],
 };
